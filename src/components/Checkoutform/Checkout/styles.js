@@ -7,13 +7,13 @@ export default makeStyles((theme) => ({
   toolbar: theme.mixins.toolbar,
   layout: {
     marginTop: '5%',
-    width: 'auto',
+    width: '100px',
     marginLeft: theme.spacing(2),
     marginRight: theme.spacing(2),
     [theme.breakpoints.up(600 + theme.spacing(2) * 2)]: {
       width: 600,
-      marginLeft: 'auto',
-      marginRight: 'auto',
+      marginLeft: '70px',
+      marginRight: '70px',
     },
   },
   paper: {
@@ -23,7 +23,7 @@ export default makeStyles((theme) => ({
     width : theme.spacing(90),
     marginLeft: theme.spacing(45),
     marginRight: theme.spacing(50),
-      justify: "center",
+      justifyContent: "center",
       alignItems: " center",
     [theme.breakpoints.down('xs')]: {
       width: '100%',
